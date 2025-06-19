@@ -1,0 +1,96 @@
+# === GENERAL ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.swn
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.venv/
+env/
+venv/
+Pipfile.lock
+poetry.lock
+
+# === JUPYTER NOTEBOOKS ===
+.ipynb_checkpoints/
+
+# === R / RStudio ===
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# === NODE / JS / Web (si front-end ou plateforme web) ===
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# === DATA ===
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.h5
+*.zip
+*.gz
+*.tar
+*.7z
+data/raw/
+data/temp/
+datasets/private/
+!datasets/public/
+
+# === OS / SYSTEM FILES ===
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === VSCODE / IDE CONFIG ===
+.vscode/
+.idea/
+*.iml
+
+# === BACKUP / EXPORT FILES ===
+*.bak
+*.old
+*.backup
+*.tmp
+~$*
+
+# === PDF / DOCUMENTS (optionnel) ===
+# Uncomment to ignore generated docs (si nécessaire)
+# *.pdf
+# *.pptx
+# *.docx
+
+# === GIT / LICENSES / DOCS ===
+!LICENSE*
+!README.md
+!LICENSES.md
+!docs/**
+
+# === CONFIGURATION (si site web ou app) ===
+.env
+.env.*
+config.local.*
+
+# === TESTS ===
+coverage/
+htmlcov/
+.cache/
+.tox/
+.pytest_cache/
